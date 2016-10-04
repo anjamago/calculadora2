@@ -1,0 +1,57 @@
+html,body{
+  height: 100px;
+  min-height: 100px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  width: 296px;
+  position: relative;
+  top:50%;
+  transform: translateY(50%);
+
+
+}
+button{
+
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+}
+ul{
+  list-style: none;
+  direction: rtl;
+  display: inline-block;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: top;
+}
+ul li{
+  margin: 0px;
+  display: inline-block;
+  line-height: 0;
+  font-size: 0;
+}
+#io{
+  padding-top: 5%;
+  height: 3em;
+}
+#input{
+  margin-left: 10px;
+  width:50%;
+  height: 40px;
+}
+#result{
+  width: 20%;
+  background-color: #BFBFBF;
+}
+#operators{
+text-align: left;
+  width: 124px;
+}
+#numbers{
+  width: 168px;
+  text-align: left;
+}
